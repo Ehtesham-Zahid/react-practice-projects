@@ -1,0 +1,41 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.accordian {
+  width: 50%;
+  background: hsl(22, 100%, 50%);
+  border: 5px solid black;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.acc-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.item {
+  border-bottom: 2px solid white;
+}
+
+.accordian button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.accordian button:hover {
+  background-color: #ff9800; /* Add a color of your choice */
+  transition: all;
+  transition-duration: s;
+}
