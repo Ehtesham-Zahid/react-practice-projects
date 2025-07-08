@@ -19,6 +19,7 @@ const starRating = ({ noOfStars = 5 }) => {
   function handleMouseLeave() {
     setHover(rating);
   }
+
   return (
     <div className="star-rating">
       {[...Array(noOfStars)].map((_, index) => {
