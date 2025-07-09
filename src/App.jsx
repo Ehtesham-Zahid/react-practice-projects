@@ -4,6 +4,7 @@ import RandomColor from "./components/randomColor/randomColor";
 import StarRating from "./components/starRating/starRating";
 import ImageSlider from "./components/imageSlider/imageSlider";
 import LoadMoreData from "./components/LoadMoreData/LoadMoreData";
+import SideMenu from "./components/SideMenu/SideMenu";
 
 const App = () => {
   return (
@@ -16,7 +17,8 @@ const App = () => {
         page={"1"}
         limit={"10"}
       /> */}
-      <LoadMoreData />
+      {/* <LoadMoreData /> */}
+      <SideMenu />
     </div>
   );
 };
